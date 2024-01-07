@@ -4,7 +4,7 @@ This project provides input files and scripts for predicting Peierls barriers us
 
 1. Folder: NN_training
 
-Generate_batch_data.py: Defines a ‘DataGenerator’ Python class for real-time data feeding to the Keras model. It reads the NumPy array of each example from its corresponding file (e.g., 0-0.npy). For a detailed explanation, please refer to https://stanford.edu/~shervine/blog/keras-how-to-generate-data-on-the-fly 
+Generate_batch_data.py: Defines a ‘DataGenerator’ Python class for real-time data feeding to the Keras model. It reads the NumPy array of each example from its corresponding file (e.g., 0-0.npy). 
 
 NN_training.py: This script trains the neural network model, which consists of 4 layers with 256 neurons each as an example. 
 
