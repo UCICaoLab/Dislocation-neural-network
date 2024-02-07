@@ -10,7 +10,7 @@ NN_training.py: This script trains the neural network model, which consists of 4
 
 Training_validation.npy: Contains predicted results versus the actual barriers computed using the Nudged Elastic Band (NEB) method in LAMMPS, for both training and validation datasets.
 
-Prediction.npy: Features predicted results compared to the actual barriers for prediction dataset. 
+Prediction.npy: Features predicted results compared to the actual barriers for the prediction dataset. 
 
 2. Folder Lattice_representation:
 
@@ -20,3 +20,6 @@ lattice_representation.py: This script, when executed, utilizes ‘0.lmp’ to g
 
 Assign_screw_type.py: This Python script uses ‘initial_screw.lmp’ as input to randomly assign 10,000 different configurations with a specified composition for NEB calculations.
 
+
+Reference: X. Wang, L. Valdevit, P. Cao. "Neural network for predicting Peierls barrier spectrum and its influence on dislocation motion." Acta Materialia (2024): 119696.  
+DOI: https://doi.org/10.1016/j.actamat.2024.119696
